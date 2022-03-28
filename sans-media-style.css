@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+
+[class^='box-'] {
+  display: grid;
+  place-items: center;
+  border: solid 5px rgb(110, 19, 19);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgb(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+body {
+  background: linear-gradient(lightblue, darkblue);
+  height: 100vh;
+}
+
+.res-column-12 {
+  height: 90vh;
+  width: 90%;
+  margin: 20px auto;
+}
